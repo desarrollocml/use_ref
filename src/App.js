@@ -1,7 +1,10 @@
 /* import CopyApp from "./CopyApp"; */
 /* import MediaPlayer from "./MediaPlayer"; */
-import ScrollAnimation from "./ScrollAnimation";
+//import ScrollAnimation from "./ScrollAnimation";
 //import FocusApp from "./FocusApp";
+
+import LoadingApp from "./LoadingApp";
+//import RenderApp from "./RenderApp";
 
 
 function App() {
@@ -10,7 +13,9 @@ function App() {
       {/* <FocusApp></FocusApp> */}
       {/* <CopyApp></CopyApp> */}
       {/* <MediaPlayer></MediaPlayer> */}
-      <ScrollAnimation></ScrollAnimation>
+      {/* <ScrollAnimation></ScrollAnimation> */}
+      {/* <RenderApp></RenderApp> */}
+      <LoadingApp></LoadingApp>
     </div>
   );
 }
