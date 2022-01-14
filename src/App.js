@@ -1,5 +1,6 @@
 /* import CopyApp from "./CopyApp"; */
-import MediaPlayer from "./MediaPlayer";
+/* import MediaPlayer from "./MediaPlayer"; */
+import ScrollAnimation from "./ScrollAnimation";
 //import FocusApp from "./FocusApp";
 
 
@@ -8,7 +9,8 @@ function App() {
     <div>
       {/* <FocusApp></FocusApp> */}
       {/* <CopyApp></CopyApp> */}
-      <MediaPlayer></MediaPlayer>
+      {/* <MediaPlayer></MediaPlayer> */}
+      <ScrollAnimation></ScrollAnimation>
     </div>
   );
 }
