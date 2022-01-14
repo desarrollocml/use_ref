@@ -7,7 +7,7 @@ export default function FocusApp() {
   function handleText(e) {
     setText(e.target.value);
   }
-  function handleFocus(e) {
+  function handleFocus() {
     const input = inputRef.current;
    /*  console.log(input.value);
     input.value = "Valor mutado" */
@@ -22,7 +22,7 @@ export default function FocusApp() {
     <div>
       <input
         ref={inputRef}
-        id="input"
+        //id="input"
         type="text"
         value={text}
         onChange={handleText}

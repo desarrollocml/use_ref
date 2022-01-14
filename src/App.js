@@ -1,10 +1,12 @@
-import FocusApp from "./FocusApp";
+import CopyApp from "./CopyApp";
+//import FocusApp from "./FocusApp";
 
 
 function App() {
   return (
     <div>
-      <FocusApp></FocusApp>
+      {/* <FocusApp></FocusApp> */}
+      <CopyApp></CopyApp>
     </div>
   );
 }
